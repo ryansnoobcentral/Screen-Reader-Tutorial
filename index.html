@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Free screen reader tutorial for MacBook users using Google Chrome."
-    >
-    <meta name="author" content="Ryan Thornton, Charlie Virag" >
+    />
+    <meta name="author" content="Ryan Thornton, Charlie Virag" />
     <title>Screen Reader Tutorial for MacBooks using Google Chrome</title>
   </head>
   <body>
     <header>
-      <h1>
-        Screen Reader Tutorial for MacBooks VoiceOver Using Google Chrome
-      </h1>
+      <h1>Screen Reader Tutorial for MacBooks VoiceOver Using Google Chrome</h1>
       <p>
         This tutorial is directed at users who are in possession of a
         MacBook<small>(macOS 13 Ventura)</small>, Google Chrome browser
@@ -22,11 +20,30 @@
       </p>
     </header>
     <article>
+      <h2>Getting Started</h2>
+      <p>
+        First off, how do we turn on macOS's VoiceOver you might ask? Well, you
+        can simply hit command F5 to turn VoiceOver on or off. Below we have
+        constructed two examples of webpages you may encounter during your web
+        surf while using VoiceOver. The sections are broken into easy and
+        difficult. Lastly, we included a table filled with very important
+        hotkeys that will help jump start your learning of VoiceOver.
+      </p>
+      <p>
+        Here are some quick links to each sections:
+        <a href="#detailed">Detailed explanation of easy</a>
+        / <a href="#quick">Quick explanation of easy</a> /
+        <a href="#hard">Explanation of hard</a> /
+        <a href="#hotkeys">Table of hotkeys</a>
+      </p>
+    </article>
+    <hr />
+    <article>
       <h2>
         Easy to Navigate Website Example:
         <a href="https://www.google.com">Google</a>
       </h2>
-      <p>
+      <p id="detailed">
         To start this tutorial, we will introduce you to one of the most easily
         accessible websites, Google. Once you've navigated your way to Google's
         home page, you will be immediately put within Google's search bar. In
@@ -46,36 +63,79 @@
         expectations. You can then hit the same key combination of control -
         option - space to enter the search results link.
       </p>
-      <footer>This concludes our easy to navigate website example.</footer>
-      <hr>
+      <table id="quick">
+        <caption>
+          Steps to Navigate Google
+        </caption>
+        <tbody>
+          <tr>
+            <th>Step One</th>
+            <td>
+              <ul>
+                <li>Navigate to Google.com</li>
+                <li>Type your search into the search bar</li>
+                <li>
+                  If you're not within the search bar, hit TAB 6 times and do
+                  above step
+                </li>
+                <li>Finally hit enter</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th>Step Two</th>
+            <td>
+              <ul>
+                <li>
+                  Hit the key combination of control - option - space to skip
+                  directly to your search results
+                </li>
+                <li>
+                  Use TAB to filter through your search results and control -
+                  option - shift - arrow down(to get to the next level of text)
+                  or arrow up(to get back to the top level of text)
+                </li>
+                <li>
+                  Once desired result is found, hit control - option - space to
+                  visit said search result
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </article>
-
-    <!--This is the start of the div that will explain how navigating a bad website looks(TODO INSERT LINK HERE FOR BAD WEBSITE)  -->
-    <article>
-      <h2>Hard to Navigate Website Example:
+    <footer>This concludes our easy to navigate website example.</footer>
+    <hr />
+    <article id="hard">
+      <h2>
+        Hard to Navigate Website Example:
         <a href="https://www.craigslist.org/about/sites">Craigslist</a>
       </h2>
-
       <p>
-        Now, we will introduce to you one of the more difficult websites to navigate using macOS's VoiceOver, Craigslist.
-        The company Craigslist has been around since 1995 and the functionality of their website sure does feel like its stuck there.
-        In this tutorial, you will come to realize how inefficient navigating the Craigslist website will be under the
+        Now, we will introduce to you one of the more difficult websites to
+        navigate using macOS's VoiceOver, Craigslist. The company Craigslist has
+        been around since 1995 and the functionality of their website sure does
+        feel like its stuck there. In this tutorial, you will come to realize
+        how inefficient navigating the Craigslist website will be under the
         direction of VoiceOver.
       </p>
-
       <p>
-        Before you begin, make sure to have your VoiceOver turned on, this can be accessed under
-        System Preferences/Accessibility/VoiceOver/Enable VoiceOver
+        Before you begin, make sure to have your VoiceOver turned on, this can
+        be accessed under System Preferences/Accessibility/VoiceOver/Enable
+        VoiceOver
       </p>
-
       <ul>
-        <li>Step 1: Open craigslist.com
+        <li>
+          Step 1: Open craigslist.com
           <ol>
             <li>Press Tab until you reach the craigslist link</li>
             <li>Press Control-Option-Space to open the link</li>
           </ol>
         </li>
-        <li>Step 2: Navigate to the Anchorage, Alaska page - See <b>Failure</b>
+        <li>
+          Step 2: Navigate to the Anchorage, Alaska page - See
+          <a href="#failure"><b>Failure</b></a>
           <ol>
             <li>Tab/Shift-Tab to find the US link</li>
             <li>Control-Option-Space to open US link</li>
@@ -83,14 +143,16 @@
             <li>Control-Option-Space to open Anchorage</li>
           </ol>
         </li>
-        <li>Step 3: Open antiques page
+        <li>
+          Step 3: Open antiques page
           <ol>
             <li>Tab until you reach heading level 3 link "for sale"</li>
             <li>Tab once</li>
             <li>Control-Option-Space</li>
           </ol>
         </li>
-        <li>Step 4: Open someone's post
+        <li>
+          Step 4: Open someone's post
           <ol>
             <li>Tab until you reach a posting</li>
             <li>Control-Option-Space to open post</li>
@@ -99,19 +161,23 @@
           </ol>
         </li>
       </ul>
-      <h3>Failure</h3>
+      <h3 id="failure">Failure</h3>
       <p>
-        Craigslist fails using VoiceOver because it neglects reading the state names which categorize the cities.
-        This is a problem because when navigating through the US states, if you could not see which state you are in,
-        the only way to figure it out would be using the cities, but that is challenging and not everyone knows exactly which
-        cities are where.
+        Craigslist fails using VoiceOver because it neglects reading the state
+        names which categorize the cities. This is a problem because when
+        navigating through the US states, if you could not see which state you
+        are in, the only way to figure it out would be using the cities, but
+        that is challenging and not everyone knows exactly which cities are
+        where.
       </p>
-      <hr>
+      <hr />
     </article>
-
-    <section>
-      <h2>Table of Hot Keys for VoiceOver</h2>
+    <section id="hotkeys">
+      <h2>VoiceOver Hot Keys</h2>
       <table>
+        <caption>
+          Important hotkeys for VoiceOver
+        </caption>
         <thead>
           <tr>
             <th>Hot Key</th>
@@ -128,16 +194,20 @@
             <td>Move indicator to the previous element</td>
           </tr>
           <tr>
+            <td>Command-F5</td>
+            <td>Turn VoiceOver on or off</td>
+          </tr>
+          <tr>
             <td>Control-Option-Space</td>
             <td>Open selected link</td>
           </tr>
           <tr>
-            <td>Control-Option-Shift-Down</td>
-            <td>Move into selected element</td>
-          </tr>
-          <tr>
             <td>Control-Option-Shift-Up</td>
             <td>Move out of selected element</td>
+          </tr>
+          <tr>
+            <td>Control-Option-Shift-Down</td>
+            <td>Move into selected element</td>
           </tr>
         </tbody>
       </table>
